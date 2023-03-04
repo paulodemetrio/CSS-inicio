@@ -1,0 +1,81 @@
+/* Elementos HTML */
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+/* Classes */
+
+.menu{
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn-form{
+    width: 96%;
+    display: inline-flex;
+}
+
+.btn-form-cadastrar{
+    border-radius: 10%;
+    border: none;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    margin: 2%;
+    width: 100px;
+    height: 25px;
+}
+
+.btn-form-cancela{
+    border-radius: 10%;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    margin: 2%;
+    width: 100px;
+    height: 25px;
+}
+
+.l-form{
+    color: blue;
+    font-weight: bold;
+    cursor: default;
+}
+
+.lb-form{
+    width: 16%;
+    display: inline-flex;
+    margin: 1%;
+    color: blue;
+    
+}
+
+.input-form{
+    width: 76%;
+    display: inline-flex;
+    margin: 1%;
+}
+
+.component-form{
+    width: 100%;
+    color: blue;
+
+}
+
+/* IDs*/
+
+#ativa{
+    background-color: yellow;
+}
+
+#f-form-contato{
+    border-color: blue;
+    border-radius: 10px;
+    width: 50%;
+}

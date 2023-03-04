@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>CSS - Contato</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <label for="" class="menu">Início</label>
+                </a>
+            </li>
+            <li>
+                <a href="produtos.html">
+                    <label for="produtos" class="menu">Produtos</label>
+                </a>
+            </li>
+            <li>
+                <a href="servico.html">
+                    <label for="" class="menu">Serviços</label>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <label for="" class="menu" id="ativa">Contato</label>
+                </a>
+            </li>
+        </ul>
+    </nav>  
+    <div align="center">
+        <fieldset id="f-form-contato" align="center">
+            <legend class="l-form">Fomulário de Cadastro</legend>
+            <form action="#" method="post">
+                <div>
+                    <div class="lb-form">
+                        <label for="txtNome">Nome: </label>
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="txtNome" id="txtNome" class="component-form"/>
+                    </div>
+                    <div class="lb-form">
+                        <label for="txtEmail">E-mail: </label>
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="txtEmail" id="txtEmail" class="component-form" />
+                    </div>
+                    <div class="lb-form">
+                        <label for="txtNasc">Nascimento: </label>
+                    </div>
+                    <div class="input-form">
+                        <input type="date" name="txtNasc" id="txtNasc" class="component-form" />
+                    </div>   
+                    <div class="btn-form">
+                        <input type="submit" value="Cadastrar" class="btn-form-cadastrar" />
+                        <input type="reset" value="Cancelar" class="btn-form-cancela" />
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
